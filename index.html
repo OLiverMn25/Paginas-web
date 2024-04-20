@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <style>
+        body {
+            background-color: #D6EAF8;
+            margin-left: 3cm; /* Margen izquierdo de 3 cm */
+            margin-right: 3cm; /* Margen derecho de 3 cm */
+        }
+
+        .container {
+            margin: 0; /* Restablece el margen predeterminado del cuerpo */
+            padding-left: 3cm; /* Agrega un espacio de margen a la izquierda */
+            padding-right: 3cm; /* Agrega un espacio de margen a la derecha */
+        }
+
+        .img-container {
+            float: left;
+            margin-right: 20px; /* Ajusta el margen derecho según sea necesario */
+            margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+            margin-bottom: 20px; /* Ajusta el margen inferior según sea necesario */
+            margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+        }
+
+        .blockquote-container {
+            overflow: hidden; /* Evita que los elementos floten por encima */
+        }
+
+        hr {
+            width: 100%; /* Ancho del 100% para cubrir toda la línea */
+            margin: 10px 0; /* Ajusta el margen según sea necesario (10px es un ejemplo) */
+        }
+
+        /* Ajusta la altura de línea para la sección de Educación */
+        .education-section h3 {
+            line-height: 1; /* Puedes ajustar este valor según tus preferencias */
+            margin-bottom: 0; /* Elimina el margen inferior para evitar espacios adicionales */
+        }
+
+        .education-section h4 {
+            line-height: 1; /* Puedes ajustar este valor según tus preferencias */
+            margin: 0; /* Elimina el margen para evitar espacios adicionales */
+        }
+
+        /* Elimina el margen inferior del hr dentro de education-section */
+        .education-section hr {
+            margin-bottom: 0;
+        }
+
+        /* Elimina el margen inferior del p que contiene las líneas "Escuela General Manuel Serrano Renda" y "2007 - 2014" */
+        .education-section p {
+            margin: 0;
+        }
+
+        /* Agrega una línea a la izquierda del bloque con clase "block-with-border" */
+        .block-with-border {
+            border-left: 2px solid black; /* Ajusta el ancho y color de la línea según sea necesario */
+            padding-left: 10px; /* Añade un espacio entre el texto y la línea izquierda */
+        }
+       
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            left: 15px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <hr color="black">
+        <h1 style="text-align: center;">Mi primera pagina web</h1>
+        <hr color="black">
+
+        <div class="img-container">
+            <img src="Oliver.png" class="img-thumbnail" alt="Yop" width="285">
+            <blockquote class="blockquote">
+                <p>"Lo tengo todo aunque no tenga nada".</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                Oliver Bermeo <cite title="Source Title"></cite>
+            </figcaption>
+        </div>
+
+        <div class="blockquote-container education-section">
+            <h3>Perfil</h3>
+            <p>Mi nombre es Oliver Bermeo, tengo 21 años de edad y vivo en la provincia de "El Oro", exactamente en el cantón
+                El Guabo, un cantón muy bonito y tranquilo caracterizado por gente amable y tranquila, tratando mas de mi, me considero
+                un chico tranquilo, timido, amable y sobre todo respetuoso, me gusta pasar tiempo en lo que me apasiona en tocar bateria, guitarra
+                en el bajo electrico, piano y tambien cantar, en mi vida como estudiante pues actualmente estudiante de la carrera de Tecnologías de la Información con experiencia 
+                en el campo de mantenimiento de ordenadores y familiarizado con programas de ofimática. Me considero una persona que se adapta en cualquier situación con los valores apropiados y destrezas necesarias para dar solución o brindar apoyo.</p>
+                
+                <p>
+                    </p><hr color="#D6EAF8">
+                <p></p>
+                <p>
+                    Algunos datos interesantes de mi, es mis estudios culminados y muchas cosas, asi que las dejare aqui abajo, para que sepan 
+                    que tambien e tenido logros
+                </p>
+            <h3><span>Educación</span></h3>
+            <hr color="black">
+            <div class="block-with-border">
+                <h>Escuela General Manuel Serrano Renda 2007-2014<p></p>
+            </h></div>
+            <div class="block-with-border">
+                <h>Universidad Técnica de Machala 2020- Actualidad<p></p>
+            </h></div>
+            <div class="block-with-border">
+                <h>Colegio de Bachillerato EL ORO 2014-2020
+            </h></div>
+
+            <h3><span>Experiencia Laboral</span></h3>
+            <hr color="black">
+            <div class="block-with-border">
+                <h>Taller Automotriz Bermeo (2020-2022)<p></p>
+            </h></div>
+            <div class="block-with-border">
+                <h>Mantenimiento y reparación vehicular<p></p>
+            </h></div>
+        <br>
+        <br>
+            </div>
+        </div>
+    
+   
+
+<footer>
+        © 2023 Mi Sitio Web | Todos los derechos reservados a Oliver Bermeo
+    </footer>
+</body>
+</html>
